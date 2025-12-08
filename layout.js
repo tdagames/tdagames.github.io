@@ -4,8 +4,8 @@ async function loadLayout() {
   try {
     // Load header and footer
     const [headerHTML, footerHTML] = await Promise.all([
-      fetch('https://tdagames.github.io/tdagames/header.html').then(r => r.text()),
-      fetch('https://tdagames.github.io/tdagames/footer.html').then(r => r.text())
+      fetch('https://tdagames.github.io/header.html').then(r => r.text()),
+      fetch('https://tdagames.github.io/footer.html').then(r => r.text())
     ]);
 
     // Insert into page

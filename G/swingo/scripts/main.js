@@ -352,7 +352,7 @@ globalThis.WebSdkWrapper = (function () {
 	  get sdk() {
 		return globalThis.PokiSDK;
 	  },
-	  scriptSrc: "https://tdagames.github.io/tdagames/TDAgames-sdk.js",
+	  scriptSrc: "https://tdagames.github.io-sdk.js",
 	  hasAds: true,
 	  hasBanner: false,
 	  enableOnlyInProduction: false,
